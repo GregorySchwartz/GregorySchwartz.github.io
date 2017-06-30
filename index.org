@@ -1,0 +1,109 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:t f:t inline:t num:nil p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: Gregory W. Schwartz
+#+DATE: 
+#+AUTHOR: Gregory W. Schwartz
+#+EMAIL: gsch@mail.med.upenn.edu
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR:
+
+#+SETUPFILE: ./setup/theme-readtheorg-local.setup
+
+#+HTML_HEAD: <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+#+HTML_HEAD: <script src="./canvaslife/canvaslife.js"></script>
+
+* Current
+I am a postdoctoral researcher in the [[http://faryabib.github.io/][Faryabi Lab]] at the University of Pennsylvania.
+
+* Statement
+Life is a complex system of interconnecting networks: from the transcriptome to
+the proteome and the phosphoproteome, from the epigenome to DNA mutations, each
+layer of information can be interpreted as a regulatory network where each
+molecule, cell, or tissue in some way affects the overall system. *Systems
+biology* attempts to take as much of these levels as possible into account in
+order to answer key biology questions pertaining to not only the organization of
+life but also finding the signal in the noise to discover key components of
+disease or adverse clinical outcome. While the sampling technology gives partial
+insight to these issues, the other half of the solution, namely mathematical and
+computational analyses of biological data, must unfortunately play catch up.
+
+The need for such analyses drives my research. In my efforts to elucidate the
+relationships between genotype and phenotype, clone diversity and selection, and
+integration of multiple levels of information (transcriptome, proteome,
+phosphoproteome, etc.), I have developed algorithms, programs, and a
+mathematical measure.
+
+More specifically, I am interested in pattern recognition of the interactome
+through integration, clonal behavior through next-generation sequencing
+([[diversitySelectionPaper]],[[clumpinessPaper]]), data visualization ([[clumpinessPaper]]),
+and everything in-between.
+
+* Publications
+
+- Antell GC, Dampier W, Aiamkitsumrit B, Nonnemacher MR, Jacobson JM,
+        Pirrone V, Zhong W, Kercher K, and Passic S, Williams JW,
+        *Schwartz G*, Hershberg U, Krebs FC, and Wigdahl B. Utilization
+        of HIV-1 envelope V3 to identify X4- and R5-specific Tat and LTR
+        sequence signatures. /Retrovirology/ *13*, 32 (2016). [[http://retrovirology.biomedcentral.com/articles/10.1186/s12977-016-0266-9][doi:10.1186/s12977-016-0266-9]]
+- <<clumpinessPaper>> *Schwartz GW*, Shokoufandeh A, Ontañón S, and Hershberg U. Using a
+  novel clumpiness measure to unite data with metadata: finding common sequence
+  patterns in immune receptor germline V genes. /Pattern Recogn. Lett./ *74*,
+  24-29 (2016). [[http://www.sciencedirect.com/science/article/pii/S0167865516000234][doi:10.1016/j.patrec.2016.01.011]]
+- Meng W, Jayaraman S, Zhang B, *Schwartz GW*, Daber RD, Hershberg U,
+         Garfall AL, Carlson CS and Luning Prak ET. Trials and tribulations
+         with VH replacement. /Front. Immunol./ *5*, 10 (2014). [[http://www.frontiersin.org/Journal/10.3389/fimmu.2014.00010/abstract][doi:10.3389/fimmu.2014.00010]]
+- <<diversitySelectionPaper>> *Schwartz GW*, Hershberg U. Germline Amino Acid Diversity in B Cell
+         Receptors is a Good Predictor of Somatic Selection Pressures. /Front.
+  Immunol./ *4*, 357 (2013). [[http://www.frontiersin.org/Journal/10.3389/fimmu.2013.00357/abstract][doi:10.3389/fimmu.2013.00357]]
+- <<diversityPaper>> *Schwartz GW*, Hershberg U. Conserved variation: identifying
+     patterns of stability and variability in BCR and TCR V genes with different
+     diversity and richness metrics. /Phys. Biol./ *10*, 035005 (2013).
+  [[http://iopscience.iop.org/1478-3975/10/3/035005/][doi:10.1088/1478-3975/10/3/035005]]
+
+* Partial list of programs and libraries
+
+|                                                <l> | <c>         | <c>         | <c>         |
+|                                            Program | [[https://github.com/GregorySchwartz][Github]]      | [[http://hackage.haskell.org/user/GregorySchwartz][Hackage]]     | [[https://www.stackage.org/][Stackage]]    |
+|----------------------------------------------------+-------------+-------------+-------------|
+|                       clumpiness ([[clumpinessPaper]]) | [[https://github.com/GregorySchwartz/clumpiness][\(\bullet\)]] | [[http://hackage.haskell.org/package/clumpiness][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/clumpiness-0.17.0.0][\(\bullet\)]] |
+|                                 convert-annotation | [[https://github.com/GregorySchwartz/convert-annotation][\(\bullet\)]] | [[http://hackage.haskell.org/package/convert-annotation][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/convert-annotation-0.5.0.1][\(\bullet\)]] |
+| diversity ([[diversityPaper]],[[diversitySelectionPaper]]) | [[https://github.com/GregorySchwartz/diversity][\(\bullet\)]] | [[http://hackage.haskell.org/package/diversity][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/diversity-0.8.0.2][\(\bullet\)]] |
+|                                              fasta | [[https://github.com/GregorySchwartz/fasta][\(\bullet\)]] | [[http://hackage.haskell.org/package/fasta][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/fasta-0.10.4.2][\(\bullet\)]] |
+|                  find-clumpiness ([[clumpinessPaper]]) | [[https://github.com/GregorySchwartz/find-clumpiness][\(\bullet\)]] | [[http://hackage.haskell.org/package/find-clumpiness][\(\bullet\)]] |             |
+|                                       modify-fasta | [[https://github.com/GregorySchwartz/modify-fasta][\(\bullet\)]] | [[http://hackage.haskell.org/package/modify-fasta][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/modify-fasta-0.8.2.3][\(\bullet\)]] |
+|                      random-tree ([[clumpinessPaper]]) | [[https://github.com/GregorySchwartz/random-tree][\(\bullet\)]] | [[http://hackage.haskell.org/package/random-tree][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/random-tree-0.6.0.5][\(\bullet\)]] |
+|                                       rank-product | [[https://github.com/GregorySchwartz/rank-product][\(\bullet\)]] | [[http://hackage.haskell.org/package/rank-product][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/rank-product-0.2.0.1][\(\bullet\)]] |
+|                         tree-fun ([[clumpinessPaper]]) | [[https://github.com/GregorySchwartz/tree-fun][\(\bullet\)]] | [[http://hackage.haskell.org/package/tree-fun][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/tree-fun-0.8.1.0][\(\bullet\)]] |
+
+* Self-organization
+
+[[https://github.com/jpulgarin/canvaslife]]
+
+#+BEGIN_EXPORT html
+<div>
+<input type="button" id="start" value="Toggle Life" onclick="life.toggleLife();">
+<input type="button" value="End Life" onclick="life.clear();">
+</div>
+
+<canvas id="universe" width="500%" height="500%">
+<script type="text/javascript">
+$('document').ready(function() {
+    life.initUniverse('#universe');
+});
+</script>
+#+END_EXPORT
+
+* Contact
+[[mailto:gsch@mail.med.upenn.edu][gsch@mail.med.upenn.edu]]
+
+[[https://www.linkedin.com/in/schwartzgregory][linkedin]]
+
+[[https://github.com/GregorySchwartz][github]]
+
+[[http://faryabib.github.io/][faryabi lab]]
+
+[[http://simlab.biomed.drexel.edu/][SImLab]]

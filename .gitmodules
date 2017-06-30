@@ -1,0 +1,3 @@
+[submodule "canvaslife"]
+	path = canvaslife
+	url = https://github.com/jpulgarin/canvaslife.git

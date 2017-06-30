@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-06-30 Fri 10:37 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gregory W. Schwartz</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Gregory W. Schwartz" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="styles/readtheorg/js/readtheorg.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+<script src="./canvaslife/canvaslife.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Gregory W. Schwartz</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgdce8c07">Current</a></li>
+<li><a href="#org9574e1e">Statement</a></li>
+<li><a href="#org6900039">Publications</a></li>
+<li><a href="#orgbf1dfbd">Partial list of programs and libraries</a></li>
+<li><a href="#org67f968a">Self-organization</a></li>
+<li><a href="#org3b4f781">Contact</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgdce8c07" class="outline-2">
+<h2 id="orgdce8c07">Current</h2>
+<div class="outline-text-2" id="text-orgdce8c07">
+<p>
+I am a postdoctoral researcher in the <a href="http://faryabib.github.io/">Faryabi Lab</a> at the University of Pennsylvania.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9574e1e" class="outline-2">
+<h2 id="org9574e1e">Statement</h2>
+<div class="outline-text-2" id="text-org9574e1e">
+<p>
+Life is a complex system of interconnecting networks: from the transcriptome to
+the proteome and the phosphoproteome, from the epigenome to DNA mutations, each
+layer of information can be interpreted as a regulatory network where each
+molecule, cell, or tissue in some way affects the overall system. <b>Systems
+biology</b> attempts to take as much of these levels as possible into account in
+order to answer key biology questions pertaining to not only the organization of
+life but also finding the signal in the noise to discover key components of
+disease or adverse clinical outcome. While the sampling technology gives partial
+insight to these issues, the other half of the solution, namely mathematical and
+computational analyses of biological data, must unfortunately play catch up.
+</p>
+
+<p>
+The need for such analyses drives my research. In my efforts to elucidate the
+relationships between genotype and phenotype, clone diversity and selection, and
+integration of multiple levels of information (transcriptome, proteome,
+phosphoproteome, etc.), I have developed algorithms, programs, and a
+mathematical measure.
+</p>
+
+<p>
+More specifically, I am interested in pattern recognition of the interactome
+through integration, clonal behavior through next-generation sequencing
+(<a href="#org3022b1e">4</a>,<a href="#org49138ac">2</a>), data visualization (<a href="#org49138ac">2</a>),
+and everything in-between.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6900039" class="outline-2">
+<h2 id="org6900039">Publications</h2>
+<div class="outline-text-2" id="text-org6900039">
+<ul class="org-ul">
+<li>Antell GC, Dampier W, Aiamkitsumrit B, Nonnemacher MR, Jacobson JM,
+Pirrone V, Zhong W, Kercher K, and Passic S, Williams JW,
+<b>Schwartz G</b>, Hershberg U, Krebs FC, and Wigdahl B. Utilization
+of HIV-1 envelope V3 to identify X4- and R5-specific Tat and LTR
+sequence signatures. <i>Retrovirology</i> <b>13</b>, 32 (2016). <a href="http://retrovirology.biomedcentral.com/articles/10.1186/s12977-016-0266-9"><a href="https://doi.org/10.1186/s12977-016-0266-9">doi:10.1186/s12977-016-0266-9</a></a></li>
+<li><a id="org49138ac"></a> <b>Schwartz GW</b>, Shokoufandeh A, Ontañón S, and Hershberg U. Using a
+novel clumpiness measure to unite data with metadata: finding common sequence
+patterns in immune receptor germline V genes. <i>Pattern Recogn. Lett.</i> <b>74</b>,
+24-29 (2016). <a href="http://www.sciencedirect.com/science/article/pii/S0167865516000234"><a href="https://doi.org/10.1016/j.patrec.2016.01.011">doi:10.1016/j.patrec.2016.01.011</a></a></li>
+<li>Meng W, Jayaraman S, Zhang B, <b>Schwartz GW</b>, Daber RD, Hershberg U,
+Garfall AL, Carlson CS and Luning Prak ET. Trials and tribulations
+with VH replacement. <i>Front. Immunol.</i> <b>5</b>, 10 (2014). <a href="http://www.frontiersin.org/Journal/10.3389/fimmu.2014.00010/abstract"><a href="https://doi.org/10.3389/fimmu.2014.00010">doi:10.3389/fimmu.2014.00010</a></a></li>
+<li><a id="org3022b1e"></a> <b>Schwartz GW</b>, Hershberg U. Germline Amino Acid Diversity in B Cell
+       Receptors is a Good Predictor of Somatic Selection Pressures. <i>Front.
+Immunol.</i> <b>4</b>, 357 (2013). <a href="http://www.frontiersin.org/Journal/10.3389/fimmu.2013.00357/abstract"><a href="https://doi.org/10.3389/fimmu.2013.00357">doi:10.3389/fimmu.2013.00357</a></a></li>
+<li><a id="org17fa8a5"></a> <b>Schwartz GW</b>, Hershberg U. Conserved variation: identifying
+   patterns of stability and variability in BCR and TCR V genes with different
+   diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (2013).
+<a href="http://iopscience.iop.org/1478-3975/10/3/035005/"><a href="https://doi.org/10.1088/1478-3975/10/3/035005">doi:10.1088/1478-3975/10/3/035005</a></a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgbf1dfbd" class="outline-2">
+<h2 id="orgbf1dfbd">Partial list of programs and libraries</h2>
+<div class="outline-text-2" id="text-orgbf1dfbd">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-center" />
+
+<col  class="org-center" />
+
+<col  class="org-center" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Program</th>
+<th scope="col" class="org-center"><a href="https://github.com/GregorySchwartz">Github</a></th>
+<th scope="col" class="org-center"><a href="http://hackage.haskell.org/user/GregorySchwartz">Hackage</a></th>
+<th scope="col" class="org-center"><a href="https://www.stackage.org/">Stackage</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">clumpiness (<a href="#org49138ac">2</a>)</td>
+<td class="org-center"><a href="https://github.com/GregorySchwartz/clumpiness">\(\bullet\)</a></td>
+<td class="org-center"><a href="http://hackage.haskell.org/package/clumpiness">\(\bullet\)</a></td>
+<td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/clumpiness-0.17.0.0">\(\bullet\)</a></td>
+</tr>
+
+<tr>
+<td class="org-left">convert-annotation</td>
+<td class="org-center"><a href="https://github.com/GregorySchwartz/convert-annotation">\(\bullet\)</a></td>
+<td class="org-center"><a href="http://hackage.haskell.org/package/convert-annotation">\(\bullet\)</a></td>
+<td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/convert-annotation-0.5.0.1">\(\bullet\)</a></td>
+</tr>
+
+<tr>
+<td class="org-left">diversity (<a href="#org17fa8a5">5</a>,<a href="#org3022b1e">4</a>)</td>
+<td class="org-center"><a href="https://github.com/GregorySchwartz/diversity">\(\bullet\)</a></td>
+<td class="org-center"><a href="http://hackage.haskell.org/package/diversity">\(\bullet\)</a></td>
+<td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/diversity-0.8.0.2">\(\bullet\)</a></td>
+</tr>
+
+<tr>
+<td class="org-left">fasta</td>
+<td class="org-center"><a href="https://github.com/GregorySchwartz/fasta">\(\bullet\)</a></td>
+<td class="org-center"><a href="http://hackage.haskell.org/package/fasta">\(\bullet\)</a></td>
+<td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/fasta-0.10.4.2">\(\bullet\)</a></td>
+</tr>
+
+<tr>
+<td class="org-left">find-clumpiness (<a href="#org49138ac">2</a>)</td>
+<td class="org-center"><a href="https://github.com/GregorySchwartz/find-clumpiness">\(\bullet\)</a></td>
+<td class="org-center"><a href="http://hackage.haskell.org/package/find-clumpiness">\(\bullet\)</a></td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">modify-fasta</td>
+<td class="org-center"><a href="https://github.com/GregorySchwartz/modify-fasta">\(\bullet\)</a></td>
+<td class="org-center"><a href="http://hackage.haskell.org/package/modify-fasta">\(\bullet\)</a></td>
+<td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/modify-fasta-0.8.2.3">\(\bullet\)</a></td>
+</tr>
+
+<tr>
+<td class="org-left">random-tree (<a href="#org49138ac">2</a>)</td>
+<td class="org-center"><a href="https://github.com/GregorySchwartz/random-tree">\(\bullet\)</a></td>
+<td class="org-center"><a href="http://hackage.haskell.org/package/random-tree">\(\bullet\)</a></td>
+<td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/random-tree-0.6.0.5">\(\bullet\)</a></td>
+</tr>
+
+<tr>
+<td class="org-left">rank-product</td>
+<td class="org-center"><a href="https://github.com/GregorySchwartz/rank-product">\(\bullet\)</a></td>
+<td class="org-center"><a href="http://hackage.haskell.org/package/rank-product">\(\bullet\)</a></td>
+<td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/rank-product-0.2.0.1">\(\bullet\)</a></td>
+</tr>
+
+<tr>
+<td class="org-left">tree-fun (<a href="#org49138ac">2</a>)</td>
+<td class="org-center"><a href="https://github.com/GregorySchwartz/tree-fun">\(\bullet\)</a></td>
+<td class="org-center"><a href="http://hackage.haskell.org/package/tree-fun">\(\bullet\)</a></td>
+<td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/tree-fun-0.8.1.0">\(\bullet\)</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org67f968a" class="outline-2">
+<h2 id="org67f968a">Self-organization</h2>
+<div class="outline-text-2" id="text-org67f968a">
+<p>
+<a href="https://github.com/jpulgarin/canvaslife">https://github.com/jpulgarin/canvaslife</a>
+</p>
+
+<div>
+<input type="button" id="start" value="Toggle Life" onclick="life.toggleLife();">
+<input type="button" value="End Life" onclick="life.clear();">
+</div>
+
+<canvas id="universe" width="500%" height="500%">
+<script type="text/javascript">
+$('document').ready(function() {
+    life.initUniverse('#universe');
+});
+</script>
+</div>
+</div>
+
+<div id="outline-container-org3b4f781" class="outline-2">
+<h2 id="org3b4f781">Contact</h2>
+<div class="outline-text-2" id="text-org3b4f781">
+<p>
+<a href="mailto:gsch@mail.med.upenn.edu">gsch@mail.med.upenn.edu</a>
+</p>
+
+<p>
+<a href="https://www.linkedin.com/in/schwartzgregory">linkedin</a>
+</p>
+
+<p>
+<a href="https://github.com/GregorySchwartz">github</a>
+</p>
+
+<p>
+<a href="http://faryabib.github.io/">faryabi lab</a>
+</p>
+
+<p>
+<a href="http://simlab.biomed.drexel.edu/">SImLab</a>
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Gregory W. Schwartz</p>
+<p class="email">Email: <a href="mailto:gsch@mail.med.upenn.edu">gsch@mail.med.upenn.edu</a></p>
+<p class="date">Created: 2017-06-30 Fri 10:37</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
