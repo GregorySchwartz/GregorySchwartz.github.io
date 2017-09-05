@@ -21,27 +21,27 @@ I am a postdoctoral researcher in the [[http://faryabib.github.io/][Faryabi Lab]
 
 * Statement
 Life is a complex system of interconnecting networks: from the transcriptome to
-the proteome and the phosphoproteome, from the epigenome to the genome, each
-layer of information can be interpreted as a regulatory network where each
-molecule, cell, or tissue in some way affects the overall system. *Systems
-biology* attempts to take into account as many of these levels as possible in
-order to answer key biology questions pertaining to not only the organization of
-life but also finding the signal in the noise to discover key components of
-disease or adverse clinical outcomes. While the sampling technologies give
-partial insight to these issues, the other half of the solution, namely
-mathematical and computational analyses of biological data, are needed more than
-ever in this high-throughput era.
+the proteome, from a single cell to clonal populations, each layer of
+information can be interpreted as a network where each molecule, cell, or tissue
+in some way affects the overall system. *Systems biology* attempts to take into
+account as many of these levels as possible in order to answer key biology
+questions pertaining to not only the organization of life but also finding the
+signal in the noise to discover key components of disease or adverse clinical
+outcomes. While the sampling technologies give partial insight to these issues,
+the other half of the solution, namely mathematical and computational analyses
+of biological data, are needed more than ever in this high-throughput era.
 
 The need for such analyses drives my research. In my efforts to elucidate the
-relationships between genotype and phenotype, clone diversity and selection, and
+relationships between genotype and phenotype, clonal diversity and selection, and
 integration of multiple levels of information (transcriptome, proteome,
 phosphoproteome, etc.), I have developed algorithms, programs, and
 mathematical measures.
 
-More specifically, I am interested in pattern recognition of the interactome
-through integration, clonal behavior through next-generation sequencing
-([[diversitySelectionPaper]], [[bCellAtlas]], [[clumpinessPaper]]), data visualization
-([[clumpinessPaper]]), and everything in-between.
+More specifically, I am interested in clonal behavior and evolution through
+next-generation sequencing ([[diversitySelectionPaper]], [[bCellAtlas]],
+[[clumpinessPaper]]), pattern recognition of the interactome through integration,
+network structure similarity, data visualization ([[clumpinessPaper]]), and
+everything in-between.
 
 * Publications
 
