@@ -47,31 +47,31 @@ and everything in-between.
 
 - <<integration>> *Schwartz GW*, Petrovic J, Zhou Y, and Faryabi RB.
   Differential integration of transcriptome and proteome identifies pan-cancer
-  prognostic biomarkers. Front. Genet. *9*, 205 (2018).
+  prognostic biomarkers. /Front. Genet./ *9*, 205 (2018).
   [[https://www.frontiersin.org/articles/10.3389/fgene.2018.00205/full][doi:10.3389/fgene.2018.00205]]
-- <<bCellAtlas>> Meng W*, Zhang B*, *Schwartz GW*, Rosenfeld AM, Ren D, Thome J JC, Carpenter DJ,
-  Matsuoka N, Lerner H, Friedman AL, Granot T, Farber DL, Shlomchik MJ,
-  Hershberg U and Luning Prak ET. An atlas of B cell clonal distribution in the
-  human body. /Nat. Biotechnol./ *35*, pages 879–884 (2017).
+- <<bCellAtlas>> Meng W*, Zhang B*, *Schwartz GW*, Rosenfeld AM, Ren D, Thome J
+  JC, Carpenter DJ, Matsuoka N, Lerner H, Friedman AL, Granot T, Farber DL,
+  Shlomchik MJ, Hershberg U and Luning Prak ET. An atlas of B cell clonal
+  distribution in the human body. /Nat. Biotechnol./ *35*, pages 879–884 (2017).
   [[https://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3942.html][doi:10.1038/nbt.3942]]
 - Antell GC, Dampier W, Aiamkitsumrit B, Nonnemacher MR, Jacobson JM, Pirrone V,
   Zhong W, Kercher K, and Passic S, Williams JW, *Schwartz G*, Hershberg U,
   Krebs FC, and Wigdahl B. Utilization of HIV-1 envelope V3 to identify X4- and
   R5-specific Tat and LTR sequence signatures. /Retrovirology/ *13*, 32 (2016).
   [[http://retrovirology.biomedcentral.com/articles/10.1186/s12977-016-0266-9][doi:10.1186/s12977-016-0266-9]]
-- <<clumpinessPaper>> *Schwartz GW*, Shokoufandeh A, Ontañón S, and Hershberg U. Using a
-  novel clumpiness measure to unite data with metadata: finding common sequence
-  patterns in immune receptor germline V genes. /Pattern Recogn. Lett./ *74*,
-  24-29 (2016). [[http://www.sciencedirect.com/science/article/pii/S0167865516000234][doi:10.1016/j.patrec.2016.01.011]]
+- <<clumpinessPaper>> *Schwartz GW*, Shokoufandeh A, Ontañón S, and Hershberg U.
+  Using a novel clumpiness measure to unite data with metadata: finding common
+  sequence patterns in immune receptor germline V genes. /Pattern Recogn. Lett./
+  *74*, 24-29 (2016). [[http://www.sciencedirect.com/science/article/pii/S0167865516000234][doi:10.1016/j.patrec.2016.01.011]]
 - Meng W, Jayaraman S, Zhang B, *Schwartz GW*, Daber RD, Hershberg U,
   Garfall AL, Carlson CS and Luning Prak ET. Trials and tribulations with VH
   replacement. /Front. Immunol./ *5*, 10 (2014). [[http://www.frontiersin.org/Journal/10.3389/fimmu.2014.00010/abstract][doi:10.3389/fimmu.2014.00010]]
-- <<diversitySelectionPaper>> *Schwartz GW*, Hershberg U. Germline Amino Acid Diversity in B Cell
-  Receptors is a Good Predictor of Somatic Selection Pressures. /Front.
-  Immunol./ *4*, 357 (2013). [[http://www.frontiersin.org/Journal/10.3389/fimmu.2013.00357/abstract][doi:10.3389/fimmu.2013.00357]]
-- <<diversityPaper>> *Schwartz GW*, Hershberg U. Conserved variation: identifying
-  patterns of stability and variability in BCR and TCR V genes with different
-  diversity and richness metrics. /Phys. Biol./ *10*, 035005 (2013).
+- <<diversitySelectionPaper>> *Schwartz GW*, Hershberg U. Germline Amino Acid
+  Diversity in B Cell Receptors is a Good Predictor of Somatic Selection
+  Pressures. /Front. Immunol./ *4*, 357 (2013). [[http://www.frontiersin.org/Journal/10.3389/fimmu.2013.00357/abstract][doi:10.3389/fimmu.2013.00357]]
+- <<diversityPaper>> *Schwartz GW*, Hershberg U. Conserved variation:
+  identifying patterns of stability and variability in BCR and TCR V genes with
+  different diversity and richness metrics. /Phys. Biol./ *10*, 035005 (2013).
   [[http://iopscience.iop.org/1478-3975/10/3/035005/][doi:10.1088/1478-3975/10/3/035005]]
 
 * Partial list of programs and libraries
