@@ -5,7 +5,7 @@
 #+TITLE: Gregory W. Schwartz
 #+DATE: 
 #+AUTHOR: Gregory W. Schwartz
-#+EMAIL: gsch@mail.med.upenn.edu
+#+EMAIL: gsch@pennmedicine.upenn.edu
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
