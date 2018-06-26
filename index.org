@@ -39,16 +39,21 @@ mathematical measures.
 
 More specifically, I am interested in clonal behavior and evolution through
 next-generation sequencing ([[diversitySelectionPaper]], [[bCellAtlas]],
-[[clumpinessPaper]]), pattern recognition of the interactome through integration,
-network structure similarity, data visualization ([[clumpinessPaper]]), and
-everything in-between.
+[[clumpinessPaper]]), pattern recognition of the interactome through integration
+([[integration]]), network structure similarity, data visualization ([[clumpinessPaper]]),
+and everything in-between.
 
 * Publications
 
+- <<integration>> *Schwartz GW*, Petrovic J, Zhou Y, and Faryabi RB.
+  Differential integration of transcriptome and proteome identifies pan-cancer
+  prognostic biomarkers. Front. Genet. *9*, 205 (2018).
+  [[https://www.frontiersin.org/articles/10.3389/fgene.2018.00205/full][doi:10.3389/fgene.2018.00205]]
 - <<bCellAtlas>> Meng W*, Zhang B*, *Schwartz GW*, Rosenfeld AM, Ren D, Thome J JC, Carpenter DJ,
   Matsuoka N, Lerner H, Friedman AL, Granot T, Farber DL, Shlomchik MJ,
-  Hershberg U and Luning Prak ET: An atlas of B cell clonal distribution in
-  the human body. /Nat. Biotechnol./ (2017). [[https://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3942.html][doi:10.1038/nbt.3942]]
+  Hershberg U and Luning Prak ET. An atlas of B cell clonal distribution in the
+  human body. /Nat. Biotechnol./ *35*, pages 879–884 (2017).
+  [[https://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3942.html][doi:10.1038/nbt.3942]]
 - Antell GC, Dampier W, Aiamkitsumrit B, Nonnemacher MR, Jacobson JM, Pirrone V,
   Zhong W, Kercher K, and Passic S, Williams JW, *Schwartz G*, Hershberg U,
   Krebs FC, and Wigdahl B. Utilization of HIV-1 envelope V3 to identify X4- and
@@ -59,14 +64,14 @@ everything in-between.
   patterns in immune receptor germline V genes. /Pattern Recogn. Lett./ *74*,
   24-29 (2016). [[http://www.sciencedirect.com/science/article/pii/S0167865516000234][doi:10.1016/j.patrec.2016.01.011]]
 - Meng W, Jayaraman S, Zhang B, *Schwartz GW*, Daber RD, Hershberg U,
-         Garfall AL, Carlson CS and Luning Prak ET. Trials and tribulations
-         with VH replacement. /Front. Immunol./ *5*, 10 (2014). [[http://www.frontiersin.org/Journal/10.3389/fimmu.2014.00010/abstract][doi:10.3389/fimmu.2014.00010]]
+  Garfall AL, Carlson CS and Luning Prak ET. Trials and tribulations with VH
+  replacement. /Front. Immunol./ *5*, 10 (2014). [[http://www.frontiersin.org/Journal/10.3389/fimmu.2014.00010/abstract][doi:10.3389/fimmu.2014.00010]]
 - <<diversitySelectionPaper>> *Schwartz GW*, Hershberg U. Germline Amino Acid Diversity in B Cell
-         Receptors is a Good Predictor of Somatic Selection Pressures. /Front.
+  Receptors is a Good Predictor of Somatic Selection Pressures. /Front.
   Immunol./ *4*, 357 (2013). [[http://www.frontiersin.org/Journal/10.3389/fimmu.2013.00357/abstract][doi:10.3389/fimmu.2013.00357]]
 - <<diversityPaper>> *Schwartz GW*, Hershberg U. Conserved variation: identifying
-     patterns of stability and variability in BCR and TCR V genes with different
-     diversity and richness metrics. /Phys. Biol./ *10*, 035005 (2013).
+  patterns of stability and variability in BCR and TCR V genes with different
+  diversity and richness metrics. /Phys. Biol./ *10*, 035005 (2013).
   [[http://iopscience.iop.org/1478-3975/10/3/035005/][doi:10.1088/1478-3975/10/3/035005]]
 
 * Partial list of programs and libraries
@@ -79,6 +84,7 @@ everything in-between.
 | diversity ([[diversityPaper]],[[diversitySelectionPaper]]) | [[https://github.com/GregorySchwartz/diversity][\(\bullet\)]] | [[http://hackage.haskell.org/package/diversity][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/diversity-0.8.0.2][\(\bullet\)]] |
 | fasta                                              | [[https://github.com/GregorySchwartz/fasta][\(\bullet\)]] | [[http://hackage.haskell.org/package/fasta][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/fasta-0.10.4.2][\(\bullet\)]] |
 | find-clumpiness ([[clumpinessPaper]], [[bCellAtlas]])      | [[https://github.com/GregorySchwartz/find-clumpiness][\(\bullet\)]] | [[http://hackage.haskell.org/package/find-clumpiness][\(\bullet\)]] | [[https://www.stackage.org/lts-9.0/package/find-clumpiness-0.2.1.3][\(\bullet\)]] |
+| integreat                                          | [[https://github.com/GregorySchwartz/integreat][\(\bullet\)]] | [[http://hackage.haskell.org/package/integreat][\(\bullet\)]] |             |
 | modify-fasta                                       | [[https://github.com/GregorySchwartz/modify-fasta][\(\bullet\)]] | [[http://hackage.haskell.org/package/modify-fasta][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/modify-fasta-0.8.2.3][\(\bullet\)]] |
 | random-tree ([[clumpinessPaper]])                      | [[https://github.com/GregorySchwartz/random-tree][\(\bullet\)]] | [[http://hackage.haskell.org/package/random-tree][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/random-tree-0.6.0.5][\(\bullet\)]] |
 | rank-product                                       | [[https://github.com/GregorySchwartz/rank-product][\(\bullet\)]] | [[http://hackage.haskell.org/package/rank-product][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/rank-product-0.2.0.1][\(\bullet\)]] |
@@ -104,11 +110,14 @@ $('document').ready(function() {
 #+END_EXPORT
 
 * Contact
-[[mailto:gsch@mail.med.upenn.edu][gsch@mail.med.upenn.edu]]
+
+[[mailto:gsch@mail.med.upenn.edu][gsch@pennmedicine.upenn.edu]]
 
 [[https://www.linkedin.com/in/schwartzgregory][linkedin]]
 
 [[https://github.com/GregorySchwartz][github]]
+
+[[https://gitlab.com/GregorySchwartz][gitlab]]
 
 [[http://faryabib.github.io/][faryabi lab]]
 
