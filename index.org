@@ -52,7 +52,7 @@ and everything in-between.
 - <<bCellAtlas>> Meng W*, Zhang B*, *Schwartz GW*, Rosenfeld AM, Ren D, Thome J
   JC, Carpenter DJ, Matsuoka N, Lerner H, Friedman AL, Granot T, Farber DL,
   Shlomchik MJ, Hershberg U and Luning Prak ET. An atlas of B cell clonal
-  distribution in the human body. /Nat. Biotechnol./ *35*, pages 879–884 (2017).
+  distribution in the human body. /Nat. Biotechnol./ *35*, 879-884 (2017).
   [[https://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3942.html][doi:10.1038/nbt.3942]]
 - Antell GC, Dampier W, Aiamkitsumrit B, Nonnemacher MR, Jacobson JM, Pirrone V,
   Zhong W, Kercher K, and Passic S, Williams JW, *Schwartz G*, Hershberg U,
