@@ -82,7 +82,7 @@ and everything in-between.
 * Partial list of programs and libraries
 #+BEGIN_CENTER
 | <l>                                                |     <c>     |     <c>     |     <c>     |     <c>     |
-| Program                                            |   [[https://github.com/GregorySchwartz][Github]]    |   [[http://hackage.haskell.org/user/GregorySchwartz][Hackage]]   |  [[https://www.stackage.org/][Stackage]]   |   Docker    |
+| Program                                            |   [[https://github.com/GregorySchwartz][Github]]    |   [[http://hackage.haskell.org/user/GregorySchwartz][Hackage]]   |  [[https://www.stackage.org/][Stackage]]   |   [[https://hub.docker.com/u/gregoryschwartz][Docker]]    |
 |----------------------------------------------------+-------------+-------------+-------------+-------------|
 | birch-beer                                         | [[https://github.com/GregorySchwartz/birch-beer][\(\bullet\)]] | [[http://hackage.haskell.org/package/birch-beer][\(\bullet\)]] |             | [[https://hub.docker.com/r/gregoryschwartz/birch-beer][\(\bullet\)]] |
 | clumpiness ([[clumpinessPaper]], [[bCellAtlas]])           | [[https://github.com/GregorySchwartz/clumpiness][\(\bullet\)]] | [[http://hackage.haskell.org/package/clumpiness][\(\bullet\)]] | [[https://www.stackage.org/lts-8.20/package/clumpiness-0.17.0.0][\(\bullet\)]] |             |
