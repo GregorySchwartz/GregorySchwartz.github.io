@@ -45,6 +45,12 @@ and everything in-between.
 
 * Publications
 
+- Petrovic J, Zhou Y, Fasolino M, Goldman N, *Schwartz GW*, Mumbach MR, Nguyen SC,
+  Rome KS, Sela Y, Zapataro Z, Blacklow SC, Kruhlak MJ, Shi J, Aster JC, Joyce
+  EF, Little SC, Vahedi G, Pear WS, Faryabi RB. Oncogenic Notch Promotes
+  Long-Range Regulatory Interactions within Hyperconnected 3D Cliques. /Mol.
+  Cell./ *73* 1174-1190.e12. (2019).
+  [[https://www.cell.com/molecular-cell/fulltext/S1097-2765(19)30006-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276519300061%3Fshowall%3Dtrue][doi:10.1016/j.molcel.2019.01.006]]
 - <<flt3Class>> *Schwartz GW*, Manning BS, Zhou Y, Velu PD,
   Bigdeli A, Astles R, Lehman AW, Morrissette JJD, Perl AE, Li M, Carroll M, and
   Faryabi RB. Classes of ITD predict outcomes in AML patients treated with FLT3
