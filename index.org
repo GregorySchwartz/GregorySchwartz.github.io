@@ -17,34 +17,66 @@
 #+HTML_HEAD: <script src="./canvaslife/canvaslife.js"></script>
 
 * Current
-I am a postdoctoral researcher in the [[http://faryabib.github.io/][Faryabi Lab]] at the University of Pennsylvania.
+I am a postdoctoral fellow in the [[http://faryabib.github.io/][Faryabi Lab]] at the University of Pennsylvania.
 
 * Statement
+
 Life is a complex system of interconnecting networks: from the transcriptome to
 the proteome, from a single cell to clonal populations, each layer of
 information can be interpreted as a network where each molecule, cell, or tissue
 in some way affects the overall system. *Systems biology* attempts to take into
-account as many of these levels as possible in order to answer key biology
-questions pertaining to not only the organization of life but also finding the
-signal in the noise to discover key components of disease or adverse clinical
-outcomes. While the sampling technologies give partial insight to these issues,
-the other half of the solution, namely mathematical and computational analyses
-of biological data, are needed more than ever in this high-throughput era.
+account as many of these levels as possible in order to answer biological
+questions pertaining to not only the organization of life but also separating
+signal from noise to discover key components of disease or adverse clinical
+outcomes. While sampling technologies give partial insight to these issues, the
+other half of the solution, namely mathematical and computational analyses of
+biological data, are needed more than ever in this high-throughput era.
 
 The need for such analyses drives my research. In my efforts to elucidate the
-relationships between genotype and phenotype, clonal diversity and selection, and
-integration of multiple levels of information (transcriptome, proteome,
-phosphoproteome, etc.), I have developed algorithms, programs, and
-mathematical measures.
+relationships between genotype and phenotype, clonal diversity and selection,
+and integration of multiple modalities of information (transcriptome, proteome,
+phosphoproteome, etc.), I have developed algorithms, programs, and mathematical
+measures.
 
-More specifically, I am interested in clonal behavior and evolution through
-next-generation sequencing ([[diversitySelectionPaper]], [[bCellAtlas]],
-[[clumpinessPaper]], [[flt3Class]]), pattern recognition of the interactome through integration
-([[integration]]), network structure similarity, data visualization ([[clumpinessPaper]]),
-and everything in-between.
+More specifically, I am interested in clonal behavior and evolution
+([[diversitySelectionPaper]], [[bCellAtlas]], [[clumpinessPaper]], [[flt3Class]]), pattern
+recognition of the interactome through integration ([[integration]]), network
+structure similarity, data visualization ([[clumpinessPaper]]), and everything
+in-between.
+
+* Recent work
+
+[[file:img/too-many-cells.svg]]
+
+Single-cell analyses enable measurement of the transcriptome, chromatin
+accessibility, and more at single-cell resolution. However, grouping similar
+cells at different resolution cutoffs severely limits the exploration of both
+common and rare heterogeneous populations. We have developed =TooManyCells=, a
+suite of novel tools focused on simultaneous visualization of single-cell clade
+relationships at all resolutions ([[tooManyCells]]).
+
+[[file:img/heatitup.svg]]
+
+Poor prognosis of patients with acute myeloid leukemia can be predicted based on
+the presence of internal tandem duplications (ITDs) in Fms-like tyrosine kinase
+3 (/FLT3/). We discovered new classes of /FLT3/-ITDs that predict patient
+outcomes by creating =HeatITup=, an algorithm that identifies, characterizes,
+and visualizes these classes of /FLT3/-ITDs ([[flt3Class]]).
+
+[[file:img/integreat.svg]]
+
+While we can measure different modalities, such as the transcriptome and
+proteome, it is difficult to analytically relate each level of information in a
+systematic manner. We developed =inteGREAT=, an algorithm to use integration and
+differential integration between conditions to identify biomarkers across
+modalities ([[integration]]).
 
 * Publications
 
+- <<tooManyCells>> *Schwartz GW*, Petrovic J, Fasolino M, Zhou Y, Cai S, Xu L,
+  Pear WS, Vahedi G, and Faryabi RB. TooManyCells identifies and visualizes
+  relationships of single-cell clades. /BioRxiv./ (2019).
+  [[https://www.biorxiv.org/content/early/2019/01/13/519660][doi:10.1101/519660]]
 - Petrovic J, Zhou Y, Fasolino M, Goldman N, *Schwartz GW*, Mumbach MR, Nguyen SC,
   Rome KS, Sela Y, Zapataro Z, Blacklow SC, Kruhlak MJ, Shi J, Aster JC, Joyce
   EF, Little SC, Vahedi G, Pear WS, Faryabi RB. Oncogenic Notch Promotes
