@@ -75,8 +75,8 @@ modalities ([[integration]]).
 
 - <<tooManyCells>> *Schwartz GW*, Petrovic J, Fasolino M, Zhou Y, Cai S, Xu L,
   Pear WS, Vahedi G, and Faryabi RB. TooManyCells identifies and visualizes
-  relationships of single-cell clades. /BioRxiv./ (2019).
-  [[https://www.biorxiv.org/content/early/2019/01/13/519660][doi:10.1101/519660]]
+  relationships of single-cell clades. /Nat. Methods/ (In press).
+  [[https://www.biorxiv.org/content/early/2019/01/13/519660][bioRxiv: doi:10.1101/519660]]
 - Petrovic J, Zhou Y, Fasolino M, Goldman N, *Schwartz GW*, Mumbach MR, Nguyen SC,
   Rome KS, Sela Y, Zapataro Z, Blacklow SC, Kruhlak MJ, Shi J, Aster JC, Joyce
   EF, Little SC, Vahedi G, Pear WS, Faryabi RB. Oncogenic Notch Promotes
@@ -102,6 +102,10 @@ modalities ([[integration]]).
   Krebs FC, and Wigdahl B. Utilization of HIV-1 envelope V3 to identify X4- and
   R5-specific Tat and LTR sequence signatures. /Retrovirology/ *13*, 32 (2016).
   [[http://retrovirology.biomedcentral.com/articles/10.1186/s12977-016-0266-9][doi:10.1186/s12977-016-0266-9]]
+- *Schwartz GW*, Shauli T, Linial M, and Hershberg U. Serine substitutions are
+  linked to codon usage and differ for variable and conserved protein regions.
+  /Sci. Rep./ *9*, 1 (2019).
+  [[http://www.nature.com/articles/s41598-019-53452-3][doi:10.1038/s41598-019-53452-3]]
 - <<clumpinessPaper>> *Schwartz GW*, Shokoufandeh A, Ontañón S, and Hershberg U.
   Using a novel clumpiness measure to unite data with metadata: finding common
   sequence patterns in immune receptor germline V genes. /Pattern Recogn. Lett./
