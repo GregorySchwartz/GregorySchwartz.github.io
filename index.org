@@ -75,8 +75,8 @@ modalities ([[integration]]).
 
 - <<tooManyCells>> *Schwartz GW*, Petrovic J, Fasolino M, Zhou Y, Cai S, Xu L,
   Pear WS, Vahedi G, and Faryabi RB. TooManyCells identifies and visualizes
-  relationships of single-cell clades. /Nat. Methods/ (In press).
-  [[https://www.biorxiv.org/content/early/2019/01/13/519660][bioRxiv: doi:10.1101/519660]]
+  relationships of single-cell clades. /Nat. Methods/ 1-9 (2020).
+  [[https://doi.org/10.1038/s41592-020-0748-5][doi:10.1038/s41592-020-0748-5]]
 - Petrovic J, Zhou Y, Fasolino M, Goldman N, *Schwartz GW*, Mumbach MR, Nguyen SC,
   Rome KS, Sela Y, Zapataro Z, Blacklow SC, Kruhlak MJ, Shi J, Aster JC, Joyce
   EF, Little SC, Vahedi G, Pear WS, Faryabi RB. Oncogenic Notch Promotes
