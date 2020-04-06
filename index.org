@@ -75,8 +75,14 @@ modalities ([[integration]]).
 
 - <<tooManyCells>> *Schwartz GW*, Petrovic J, Fasolino M, Zhou Y, Cai S, Xu L,
   Pear WS, Vahedi G, and Faryabi RB. TooManyCells identifies and visualizes
-  relationships of single-cell clades. /Nat. Methods/ 1-9 (2020).
+  relationships of single-cell clades. /Nat. Methods/ *17* 405–413 (2020).
   [[https://doi.org/10.1038/s41592-020-0748-5][doi:10.1038/s41592-020-0748-5]]
+- Rome KS, Stein, SJ, Kurachi M, Petrovic J, *Schwartz GW*, Mack EA, Uljon S, Wu
+  WW, DeHart AG, McClory SE, Xu L, Gimotty PA, Blacklow SC, Faryabi RB, Wherry
+  EJ, Jordan MS, Pear WS. Trib1 regulates T cell differentiation during chronic
+  infection by restraining the effector program. /J. Exp. Med./ *217* e20190888
+  (2020).
+  [[https://doi.org/10.1084/jem.20190888][doi:10.1084/jem.20190888]]
 - Petrovic J, Zhou Y, Fasolino M, Goldman N, *Schwartz GW*, Mumbach MR, Nguyen SC,
   Rome KS, Sela Y, Zapataro Z, Blacklow SC, Kruhlak MJ, Shi J, Aster JC, Joyce
   EF, Little SC, Vahedi G, Pear WS, Faryabi RB. Oncogenic Notch Promotes
@@ -88,6 +94,9 @@ modalities ([[integration]]).
   Faryabi RB. Classes of ITD predict outcomes in AML patients treated with FLT3
   inhibitors. /Clin. Cancer Res./ (2019).
   [[http://clincancerres.aacrjournals.org/content/25/2/573][doi:10.1158/1078-0432.CCR-18-0655]]
+  
+  Commentary: Prognostic Models Turn the Heat(IT)up on FLT3^{ITD}-Mutated AML.
+  [[http://clincancerres.aacrjournals.org/content/25/2/460?iss=2][doi:10.1158/1078-0432.CCR-18-3146]]
 - <<integration>> *Schwartz GW*, Petrovic J, Zhou Y, and Faryabi RB.
   Differential integration of transcriptome and proteome identifies pan-cancer
   prognostic biomarkers. /Front. Genet./ *9*, 205 (2018).
