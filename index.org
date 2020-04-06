@@ -94,7 +94,6 @@ modalities ([[integration]]).
   Faryabi RB. Classes of ITD predict outcomes in AML patients treated with FLT3
   inhibitors. /Clin. Cancer Res./ (2019).
   [[http://clincancerres.aacrjournals.org/content/25/2/573][doi:10.1158/1078-0432.CCR-18-0655]]
-  
   Commentary: Prognostic Models Turn the Heat(IT)up on FLT3^{ITD}-Mutated AML.
   [[http://clincancerres.aacrjournals.org/content/25/2/460?iss=2][doi:10.1158/1078-0432.CCR-18-3146]]
 - <<integration>> *Schwartz GW*, Petrovic J, Zhou Y, and Faryabi RB.
