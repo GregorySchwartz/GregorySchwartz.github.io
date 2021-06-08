@@ -39,7 +39,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -51,7 +51,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -201,50 +201,26 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
 <script src="./canvaslife/canvaslife.js"></script>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -276,29 +252,30 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org7951837">Current</a></li>
-<li><a href="#org0eb1a09">Statement</a></li>
-<li><a href="#orgb983c52">Recent work</a></li>
-<li><a href="#orge96befd">Publications</a></li>
-<li><a href="#org3a6e2a5">Partial list of programs and libraries</a></li>
-<li><a href="#org90ca3e5">Self-organization</a></li>
-<li><a href="#org5c375cb">Contact</a></li>
+<li><a href="#orgce50a46">Current</a></li>
+<li><a href="#org60be7f5">Statement</a></li>
+<li><a href="#org1933270">Recent work</a></li>
+<li><a href="#org3e2c0a0">Publications</a></li>
+<li><a href="#org545aa18">Partial list of programs and libraries</a></li>
+<li><a href="#org7f03b73">Self-organization</a></li>
+<li><a href="#org9eb8bea">Contact</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7951837" class="outline-2">
-<h2 id="org7951837">Current</h2>
-<div class="outline-text-2" id="text-org7951837">
+<div id="outline-container-orgce50a46" class="outline-2">
+<h2 id="orgce50a46">Current</h2>
+<div class="outline-text-2" id="text-orgce50a46">
 <p>
-I am a postdoctoral fellow in the <a href="http://faryabib.github.io/">Faryabi Lab</a> at the University of Pennsylvania.
+I will be starting as a Scientist and opening up the Schwartz lab at the
+Princess Margaret Cancer Centre this fall!
 </p>
 </div>
 </div>
 
-<div id="outline-container-org0eb1a09" class="outline-2">
-<h2 id="org0eb1a09">Statement</h2>
-<div class="outline-text-2" id="text-org0eb1a09">
+<div id="outline-container-org60be7f5" class="outline-2">
+<h2 id="org60be7f5">Statement</h2>
+<div class="outline-text-2" id="text-org60be7f5">
 <p>
 Life is a complex system of interconnecting networks: from the transcriptome to
 the proteome, from a single cell to clonal populations, each layer of
@@ -322,19 +299,19 @@ measures.
 
 <p>
 More specifically, I am interested in clonal behavior and evolution
-(<a href="#orgb70a9cd">11</a>, <a href="#org05a5969">6</a>, <a href="#org82c9ee8">9</a>, <a href="#orgca5ef5c">4</a>), pattern
-recognition of the interactome through integration (<a href="#orgd8932b8">5</a>), network
-structure similarity, data visualization (<a href="#org82c9ee8">9</a>), and everything
+(<a href="#org4cc1e8e">11</a>, <a href="#org55035e1">6</a>, <a href="#orgf44413f">9</a>, <a href="#org2d89198">4</a>), pattern
+recognition of the interactome through integration (<a href="#orged5aa75">5</a>), network
+structure similarity, data visualization (<a href="#orgf44413f">9</a>), and everything
 in-between.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgb983c52" class="outline-2">
-<h2 id="orgb983c52">Recent work</h2>
-<div class="outline-text-2" id="text-orgb983c52">
+<div id="outline-container-org1933270" class="outline-2">
+<h2 id="org1933270">Recent work</h2>
+<div class="outline-text-2" id="text-org1933270">
 
-<div class="figure">
+<div id="org5141d3f" class="figure">
 <p><object type="image/svg+xml" data="img/too-many-cells.svg" class="org-svg">
 Sorry, your browser does not support SVG.</object>
 </p>
@@ -346,11 +323,11 @@ accessibility, and more at single-cell resolution. However, grouping similar
 cells at different resolution cutoffs severely limits the exploration of both
 common and rare heterogeneous populations. We have developed <code>TooManyCells</code>, a
 suite of novel tools focused on simultaneous visualization of single-cell clade
-relationships at all resolutions (<a href="#orgb79c8c0">1</a>).
+relationships at all resolutions (<a href="#org07bec74">1</a>).
 </p>
 
 
-<div class="figure">
+<div id="org0810a5c" class="figure">
 <p><object type="image/svg+xml" data="img/heatitup.svg" class="org-svg">
 Sorry, your browser does not support SVG.</object>
 </p>
@@ -361,11 +338,11 @@ Poor prognosis of patients with acute myeloid leukemia can be predicted based on
 the presence of internal tandem duplications (ITDs) in Fms-like tyrosine kinase
 3 (<i>FLT3</i>). We discovered new classes of <i>FLT3</i>-ITDs that predict patient
 outcomes by creating <code>HeatITup</code>, an algorithm that identifies, characterizes,
-and visualizes these classes of <i>FLT3</i>-ITDs (<a href="#orgca5ef5c">4</a>).
+and visualizes these classes of <i>FLT3</i>-ITDs (<a href="#org2d89198">4</a>).
 </p>
 
 
-<div class="figure">
+<div id="orgf564e8e" class="figure">
 <p><object type="image/svg+xml" data="img/integreat.svg" class="org-svg">
 Sorry, your browser does not support SVG.</object>
 </p>
@@ -376,16 +353,16 @@ While we can measure different modalities, such as the transcriptome and
 proteome, it is difficult to analytically relate each level of information in a
 systematic manner. We developed <code>inteGREAT</code>, an algorithm to use integration and
 differential integration between conditions to identify biomarkers across
-modalities (<a href="#orgd8932b8">5</a>).
+modalities (<a href="#orged5aa75">5</a>).
 </p>
 </div>
 </div>
 
-<div id="outline-container-orge96befd" class="outline-2">
-<h2 id="orge96befd">Publications</h2>
-<div class="outline-text-2" id="text-orge96befd">
+<div id="outline-container-org3e2c0a0" class="outline-2">
+<h2 id="org3e2c0a0">Publications</h2>
+<div class="outline-text-2" id="text-org3e2c0a0">
 <ul class="org-ul">
-<li><a id="orgb79c8c0"></a> <b>Schwartz GW</b>, Petrovic J, Fasolino M, Zhou Y, Cai S, Xu L,
+<li><a id="org07bec74"></a> <b>Schwartz GW</b>, Petrovic J, Fasolino M, Zhou Y, Cai S, Xu L,
 Pear WS, Vahedi G, and Faryabi RB. TooManyCells identifies and visualizes
 relationships of single-cell clades. <i>Nat. Methods</i> <b>17</b> 405–413 (2020).
 <a href="https://doi.org/10.1038/s41592-020-0748-5">doi:10.1038/s41592-020-0748-5</a></li>
@@ -401,18 +378,18 @@ EF, Little SC, Vahedi G, Pear WS, Faryabi RB. Oncogenic Notch Promotes
 Long-Range Regulatory Interactions within Hyperconnected 3D Cliques. <i>Mol.
 Cell.</i> <b>73</b> 1174-1190.e12. (2019).
 <a href="https://www.cell.com/molecular-cell/fulltext/S1097-2765(19)30006-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276519300061%3Fshowall%3Dtrue">doi:10.1016/j.molcel.2019.01.006</a></li>
-<li><a id="orgca5ef5c"></a> <b>Schwartz GW</b>, Manning BS, Zhou Y, Velu PD,
+<li><a id="org2d89198"></a> <b>Schwartz GW</b>, Manning BS, Zhou Y, Velu PD,
 Bigdeli A, Astles R, Lehman AW, Morrissette JJD, Perl AE, Li M, Carroll M, and
 Faryabi RB. Classes of ITD predict outcomes in AML patients treated with FLT3
 inhibitors. <i>Clin. Cancer Res.</i> (2019).
 <a href="http://clincancerres.aacrjournals.org/content/25/2/573">doi:10.1158/1078-0432.CCR-18-0655</a>
 Commentary: Prognostic Models Turn the Heat(IT)up on FLT3<sup>ITD</sup>-Mutated AML.
 <a href="http://clincancerres.aacrjournals.org/content/25/2/460?iss=2">doi:10.1158/1078-0432.CCR-18-3146</a></li>
-<li><a id="orgd8932b8"></a> <b>Schwartz GW</b>, Petrovic J, Zhou Y, and Faryabi RB.
+<li><a id="orged5aa75"></a> <b>Schwartz GW</b>, Petrovic J, Zhou Y, and Faryabi RB.
 Differential integration of transcriptome and proteome identifies pan-cancer
 prognostic biomarkers. <i>Front. Genet.</i> <b>9</b>, 205 (2018).
 <a href="https://www.frontiersin.org/articles/10.3389/fgene.2018.00205/full">doi:10.3389/fgene.2018.00205</a></li>
-<li><a id="org05a5969"></a> Meng W*, Zhang B*, <b>Schwartz GW</b>, Rosenfeld AM, Ren D, Thome J
+<li><a id="org55035e1"></a> Meng W*, Zhang B*, <b>Schwartz GW</b>, Rosenfeld AM, Ren D, Thome J
 JC, Carpenter DJ, Matsuoka N, Lerner H, Friedman AL, Granot T, Farber DL,
 Shlomchik MJ, Hershberg U and Luning Prak ET. An atlas of B cell clonal
 distribution in the human body. <i>Nat. Biotechnol.</i> <b>35</b>, 879-884 (2017).
@@ -426,17 +403,17 @@ R5-specific Tat and LTR sequence signatures. <i>Retrovirology</i> <b>13</b>, 32 
 linked to codon usage and differ for variable and conserved protein regions.
 <i>Sci. Rep.</i> <b>9</b>, 1 (2019).
 <a href="http://www.nature.com/articles/s41598-019-53452-3">doi:10.1038/s41598-019-53452-3</a></li>
-<li><a id="org82c9ee8"></a> <b>Schwartz GW</b>, Shokoufandeh A, Ontañón S, and Hershberg U.
+<li><a id="orgf44413f"></a> <b>Schwartz GW</b>, Shokoufandeh A, Ontañón S, and Hershberg U.
 Using a novel clumpiness measure to unite data with metadata: finding common
 sequence patterns in immune receptor germline V genes. <i>Pattern Recogn. Lett.</i>
 <b>74</b>, 24-29 (2016). <a href="http://www.sciencedirect.com/science/article/pii/S0167865516000234">doi:10.1016/j.patrec.2016.01.011</a></li>
 <li>Meng W, Jayaraman S, Zhang B, <b>Schwartz GW</b>, Daber RD, Hershberg U,
 Garfall AL, Carlson CS and Luning Prak ET. Trials and tribulations with VH
 replacement. <i>Front. Immunol.</i> <b>5</b>, 10 (2014). <a href="http://www.frontiersin.org/Journal/10.3389/fimmu.2014.00010/abstract">doi:10.3389/fimmu.2014.00010</a></li>
-<li><a id="orgb70a9cd"></a> <b>Schwartz GW</b>, Hershberg U. Germline Amino Acid
+<li><a id="org4cc1e8e"></a> <b>Schwartz GW</b>, Hershberg U. Germline Amino Acid
 Diversity in B Cell Receptors is a Good Predictor of Somatic Selection
 Pressures. <i>Front. Immunol.</i> <b>4</b>, 357 (2013). <a href="http://www.frontiersin.org/Journal/10.3389/fimmu.2013.00357/abstract">doi:10.3389/fimmu.2013.00357</a></li>
-<li><a id="org2a62977"></a> <b>Schwartz GW</b>, Hershberg U. Conserved variation:
+<li><a id="orgbe7dc41"></a> <b>Schwartz GW</b>, Hershberg U. Conserved variation:
 identifying patterns of stability and variability in BCR and TCR V genes with
 different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (2013).
 <a href="http://iopscience.iop.org/1478-3975/10/3/035005/">doi:10.1088/1478-3975/10/3/035005</a></li>
@@ -444,9 +421,9 @@ different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (
 </div>
 </div>
 
-<div id="outline-container-org3a6e2a5" class="outline-2">
-<h2 id="org3a6e2a5">Partial list of programs and libraries</h2>
-<div class="outline-text-2" id="text-org3a6e2a5">
+<div id="outline-container-org545aa18" class="outline-2">
+<h2 id="org545aa18">Partial list of programs and libraries</h2>
+<div class="outline-text-2" id="text-org545aa18">
 <div class="org-center">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -481,7 +458,7 @@ different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (
 </tr>
 
 <tr>
-<td class="org-left">clumpiness (<a href="#org82c9ee8">9</a>, <a href="#org05a5969">6</a>)</td>
+<td class="org-left">clumpiness (<a href="#orgf44413f">9</a>, <a href="#org55035e1">6</a>)</td>
 <td class="org-center"><a href="https://github.com/GregorySchwartz/clumpiness">\(\bullet\)</a></td>
 <td class="org-center"><a href="http://hackage.haskell.org/package/clumpiness">\(\bullet\)</a></td>
 <td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/clumpiness-0.17.0.0">\(\bullet\)</a></td>
@@ -505,7 +482,7 @@ different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (
 </tr>
 
 <tr>
-<td class="org-left">diversity (<a href="#org2a62977">12</a>,<a href="#orgb70a9cd">11</a>)</td>
+<td class="org-left">diversity (<a href="#orgbe7dc41">12</a>,<a href="#org4cc1e8e">11</a>)</td>
 <td class="org-center"><a href="https://github.com/GregorySchwartz/diversity">\(\bullet\)</a></td>
 <td class="org-center"><a href="http://hackage.haskell.org/package/diversity">\(\bullet\)</a></td>
 <td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/diversity-0.8.0.2">\(\bullet\)</a></td>
@@ -521,7 +498,7 @@ different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (
 </tr>
 
 <tr>
-<td class="org-left">find-clumpiness (<a href="#org82c9ee8">9</a>, <a href="#org05a5969">6</a>)</td>
+<td class="org-left">find-clumpiness (<a href="#orgf44413f">9</a>, <a href="#org55035e1">6</a>)</td>
 <td class="org-center"><a href="https://github.com/GregorySchwartz/find-clumpiness">\(\bullet\)</a></td>
 <td class="org-center"><a href="http://hackage.haskell.org/package/find-clumpiness">\(\bullet\)</a></td>
 <td class="org-center"><a href="https://www.stackage.org/lts-9.0/package/find-clumpiness-0.2.1.3">\(\bullet\)</a></td>
@@ -529,7 +506,7 @@ different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (
 </tr>
 
 <tr>
-<td class="org-left">heatitup (<a href="#orgca5ef5c">4</a>)</td>
+<td class="org-left">heatitup (<a href="#org2d89198">4</a>)</td>
 <td class="org-center"><a href="https://github.com/GregorySchwartz/heatitup">\(\bullet\)</a></td>
 <td class="org-center"><a href="https://hackage.haskell.org/package/heatitup">\(\bullet\)</a></td>
 <td class="org-center">&#xa0;</td>
@@ -537,7 +514,7 @@ different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (
 </tr>
 
 <tr>
-<td class="org-left">heatitup-complete (<a href="#orgca5ef5c">4</a>)</td>
+<td class="org-left">heatitup-complete (<a href="#org2d89198">4</a>)</td>
 <td class="org-center"><a href="https://github.com/GregorySchwartz/heatitup-complete">\(\bullet\)</a></td>
 <td class="org-center"><a href="https://hackage.haskell.org/package/heatitup-complete">\(\bullet\)</a></td>
 <td class="org-center">&#xa0;</td>
@@ -553,7 +530,7 @@ different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (
 </tr>
 
 <tr>
-<td class="org-left">integreat (<a href="#orgd8932b8">5</a>)</td>
+<td class="org-left">integreat (<a href="#orged5aa75">5</a>)</td>
 <td class="org-center"><a href="https://github.com/GregorySchwartz/integreat">\(\bullet\)</a></td>
 <td class="org-center"><a href="http://hackage.haskell.org/package/integreat">\(\bullet\)</a></td>
 <td class="org-center">&#xa0;</td>
@@ -577,7 +554,7 @@ different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (
 </tr>
 
 <tr>
-<td class="org-left">random-tree (<a href="#org82c9ee8">9</a>)</td>
+<td class="org-left">random-tree (<a href="#orgf44413f">9</a>)</td>
 <td class="org-center"><a href="https://github.com/GregorySchwartz/random-tree">\(\bullet\)</a></td>
 <td class="org-center"><a href="http://hackage.haskell.org/package/random-tree">\(\bullet\)</a></td>
 <td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/random-tree-0.6.0.5">\(\bullet\)</a></td>
@@ -609,7 +586,7 @@ different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (
 </tr>
 
 <tr>
-<td class="org-left">tree-fun (<a href="#org82c9ee8">9</a>)</td>
+<td class="org-left">tree-fun (<a href="#orgf44413f">9</a>)</td>
 <td class="org-center"><a href="https://github.com/GregorySchwartz/tree-fun">\(\bullet\)</a></td>
 <td class="org-center"><a href="http://hackage.haskell.org/package/tree-fun">\(\bullet\)</a></td>
 <td class="org-center"><a href="https://www.stackage.org/lts-8.20/package/tree-fun-0.8.1.0">\(\bullet\)</a></td>
@@ -621,9 +598,9 @@ different diversity and richness metrics. <i>Phys. Biol.</i> <b>10</b>, 035005 (
 </div>
 </div>
 
-<div id="outline-container-org90ca3e5" class="outline-2">
-<h2 id="org90ca3e5">Self-organization</h2>
-<div class="outline-text-2" id="text-org90ca3e5">
+<div id="outline-container-org7f03b73" class="outline-2">
+<h2 id="org7f03b73">Self-organization</h2>
+<div class="outline-text-2" id="text-org7f03b73">
 <p>
 <a href="https://github.com/jpulgarin/canvaslife">https://github.com/jpulgarin/canvaslife</a>
 </p>
@@ -642,9 +619,9 @@ $('document').ready(function() {
 </div>
 </div>
 
-<div id="outline-container-org5c375cb" class="outline-2">
-<h2 id="org5c375cb">Contact</h2>
-<div class="outline-text-2" id="text-org5c375cb">
+<div id="outline-container-org9eb8bea" class="outline-2">
+<h2 id="org9eb8bea">Contact</h2>
+<div class="outline-text-2" id="text-org9eb8bea">
 <p>
 <a href="mailto:gsch@mail.med.upenn.edu">gsch@pennmedicine.upenn.edu</a>
 </p>
@@ -664,17 +641,13 @@ $('document').ready(function() {
 <p>
 <a href="http://faryabib.github.io/">faryabi lab</a>
 </p>
-
-<p>
-<a href="http://simlab.biomed.drexel.edu/">SImLab</a>
-</p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Gregory W. Schwartz</p>
 <p class="email">Email: <a href="mailto:gsch@pennmedicine.upenn.edu">gsch@pennmedicine.upenn.edu</a></p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>

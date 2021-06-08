@@ -17,7 +17,8 @@
 #+HTML_HEAD: <script src="./canvaslife/canvaslife.js"></script>
 
 * Current
-I am a postdoctoral fellow in the [[http://faryabib.github.io/][Faryabi Lab]] at the University of Pennsylvania.
+I will be starting as a Scientist and opening up the Schwartz lab at the
+Princess Margaret Cancer Centre this fall!
 
 * Statement
 
@@ -183,5 +184,3 @@ $('document').ready(function() {
 [[https://gitlab.com/GregorySchwartz][gitlab]]
 
 [[http://faryabib.github.io/][faryabi lab]]
-
-[[http://simlab.biomed.drexel.edu/][SImLab]]
