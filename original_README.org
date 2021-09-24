@@ -18,7 +18,8 @@
 
 * Tasks                                                               :noexport:
 
-** TODO Add a demo page
+** DONE Add a demo page
+CLOSED: [2021-05-24 Mon 10:38]
 
 Example:
 - http://demo.thi.ng/org-spec/
