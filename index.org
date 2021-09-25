@@ -189,12 +189,8 @@ $('document').ready(function() {
 
 * Contact
 
-[[mailto:gsch@mail.med.upenn.edu][gsch@pennmedicine.upenn.edu]]
+[[mailto:gregory.schwartz@uhnresearch.ca][gregory.schwartz@uhnresearch.ca]]
 
 [[https://www.linkedin.com/in/schwartzgregory][linkedin]]
 
 [[https://github.com/GregorySchwartz][github]]
-
-[[https://gitlab.com/GregorySchwartz][gitlab]]
-
-[[http://faryabib.github.io/][faryabi lab]]
