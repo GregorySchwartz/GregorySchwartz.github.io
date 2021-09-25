@@ -86,7 +86,7 @@ modalities ([[integration]]).
 
 - <<tooManyPeaks>> *Schwartz GW*, Zhou Y, Petrovic J, and Faryabi RB. TooManyPeaks
     identifies drug-resistant-specific regulatory elements from single-cell
-    leukemic epigenomes. /Cell Rep. *36*, (2021).
+    leukemic epigenomes. /Cell Rep./ *36*, (2021).
     [[https://doi.org/10.1016/j.celrep.2021.109575][doi:10.1016/j.celrep.2021.109575]]
 - <<tooManyCells>> *Schwartz GW*, Petrovic J, Fasolino M, Zhou Y, Cai S, Xu L,
   Pear WS, Vahedi G, and Faryabi RB. TooManyCells identifies and visualizes
